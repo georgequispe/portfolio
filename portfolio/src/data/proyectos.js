@@ -1,6 +1,6 @@
 import laSaludabaleImg from '../assets/laSaludable.png';
 import verduleriaImg from '../assets/verduleria.png';
-
+import fotoGym from '../assets/foto_gym.jpg';
 
 // src/data/proyectos.js
 export const proyectos = [
@@ -27,9 +27,9 @@ export const proyectos = [
     titulo: "App de Ejercicios",
     descripcion: "Aplicación web para la gestión de ejercicios.",
     tecnologias: ["HTML", "CSS", "JavaScript"],
-    imagen: verduleriaImg,
+    imagen: fotoGym,
     repo: "https://github.com/georgequispe/ejercicios",
-    demo: "https://online-verdura.netlify.app"
+    demo: "https://ejercicios.netlify.app"
   },
   // y así...
 ];
