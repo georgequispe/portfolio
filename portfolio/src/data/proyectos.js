@@ -22,5 +22,14 @@ export const proyectos = [
     repo: "https://github.com/georgequispe/Online-verdura",
     demo: "https://online-verdura.netlify.app"
   },
+  {
+    id: 3,
+    titulo: "App de Ejercicios",
+    descripcion: "Aplicación web para la gestión de ejercicios.",
+    tecnologias: ["HTML", "CSS", "JavaScript"],
+    imagen: verduleriaImg,
+    repo: "https://github.com/georgequispe/ejercicios",
+    demo: "https://online-verdura.netlify.app"
+  },
   // y así...
 ];
