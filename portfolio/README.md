@@ -40,10 +40,11 @@ Refactorización completa del proyecto con separación clara de páginas, compon
 
 ---
 
-## 📬 Contacto
+## 📫 Contacto
 
-Si querés conocer más sobre mi trabajo o colaborar en futuros proyectos, podés contactarme por [LinkedIn](https://www.linkedin.com/feed/) o ver más en mi [CV](#).
+Si querés conocer más sobre mi trabajo o colaborar en futuros proyectos:
 
----
+🔗 [LinkedIn](https://www.linkedin.com/in/george-quispe-080154311/)  
+📄 CV: Próximamente disponible
 
 Gracias por visitar mi portfolio 🙌
