@@ -6,8 +6,8 @@ import verduleriaImg from '../assets/verduleria.png';
 export const proyectos = [
   {
     id: 1,
-    titulo: "Portfolio React",
-    descripcion: "Portfolio moderno con React y styled-components.",
+    titulo: "Verduleria y Fruteria Online",
+    descripcion: "E-commerce de productos de verdulería.",
     tecnologias: ["React", "Vite", "Styled-Components"],
     imagen: laSaludabaleImg,
     repo: "https://github.com/georgequispe/shopping-cart-react",
@@ -15,8 +15,8 @@ export const proyectos = [
   },
   {
     id: 2,
-    titulo: "App de tareas en JS",
-    descripcion: "Gestión de tareas con localStorage.",
+    titulo: "App de verduleria",
+    descripcion: "E-commerce de productos de verdulería.",
     tecnologias: ["HTML", "CSS", "JavaScript"],
     imagen: verduleriaImg,
     repo: "https://github.com/georgequispe/Online-verdura",
