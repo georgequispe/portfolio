@@ -26,7 +26,7 @@ export const proyectos = [
     id: 3,
     titulo: "App de Ejercicios",
     descripcion: "Aplicación web para la gestión de ejercicios.",
-    tecnologias: ["HTML", "CSS", "JavaScript"],
+    tecnologias: ["React", "Styled-Components"],
     imagen: fotoGym,
     repo: "https://github.com/georgequispe/ejercicios",
     demo: "https://ejercicios.netlify.app"
