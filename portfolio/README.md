@@ -1,12 +1,49 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌐 Portfolio Web - George
 
-Currently, two official plugins are available:
+Bienvenido a mi portfolio personal, donde presento los proyectos que desarrollé aplicando buenas prácticas de React, Vite y styled-components. Cada sección está pensada para mostrar claridad visual, modularidad y una experiencia de usuario fluida.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías principales
 
-## Expanding the ESLint configuration
+- React + Vite
+- styled-components
+- Modularización avanzada
+- Responsive Design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Proyectos destacados
+
+### 1. **Hero Modularizado**
+Sección de presentación con diseño moderno, animaciones suaves y estructura escalable. Implementado con componentes reutilizables y estilos desacoplados.
+
+🔧 Tecnologías: React, styled-components  
+📸 Enlace demo: [Ver proyecto](#)  
+📂 Código fuente: [GitHub](#)
+
+---
+
+### 2. **Cards de Proyectos**
+Grilla responsiva con tarjetas tipo e-commerce para mostrar cada proyecto. Integración de imágenes, descripción y enlaces a demo y repositorio.
+
+🔧 Tecnologías: React, styled-components  
+📸 Enlace demo: [Ver proyecto](#)  
+📂 Código fuente: [GitHub](#)
+
+---
+
+### 3. **Estructura Escalable**
+Refactorización completa del proyecto con separación clara de páginas, componentes y estilos. Organización profesional de carpetas y convenciones de nombres.
+
+🔧 Tecnologías: React, Vite  
+📸 Enlace demo: [Ver proyecto](#)  
+📂 Código fuente: [GitHub](#)
+
+---
+
+## 📬 Contacto
+
+Si querés conocer más sobre mi trabajo o colaborar en futuros proyectos, podés contactarme por [LinkedIn](https://www.linkedin.com/feed/) o ver más en mi [CV](#).
+
+---
+
+Gracias por visitar mi portfolio 🙌
