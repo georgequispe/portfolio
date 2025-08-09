@@ -2,11 +2,6 @@ import { HeroSection, Title, Subtitle, CTAButton } from './Hero.styles';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-
-
-
-
-
 export default function Hero() {
    const navigate = useNavigate(); 
   return (
