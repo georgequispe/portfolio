@@ -1,4 +1,4 @@
-
+import { Header, Logo, NavLink, Nav } from "./Header.styles";
 const HeaderComponent = () => (
   <Header>
     <Logo>George.dev</Logo>
