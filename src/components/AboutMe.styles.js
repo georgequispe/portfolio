@@ -9,10 +9,11 @@ export const AboutSection = styled.section`
 `;
 
 export const ProfileImage = styled.img`
-  width: 160px;
-  height: 160px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center;
   margin-bottom: 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 `;

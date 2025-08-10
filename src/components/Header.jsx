@@ -4,9 +4,9 @@ const HeaderComponent = () => (
   <Header>
     <Logo>George.dev</Logo>
     <Nav>
-      <NavLink to="/about">Sobre mí</NavLink>
+      <NavLink to="/sobre-mi">Sobre mí</NavLink>
       <NavLink to="/proyectos">Proyectos</NavLink>
-      <NavLink to="/contact">Contacto</NavLink>
+      <NavLink to="/contacto">Contacto</NavLink>
       <NavLink to="/CV_George.pdf" download>CV</NavLink>
     </Nav>
   </Header>
