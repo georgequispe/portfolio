@@ -8,5 +8,11 @@ export const StyledFooter = styled.footer`
   padding: 2rem;
   text-align: center;
 `;
-
+export const EmailLink = styled.a`
+  color: #00aaff;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+`;
 

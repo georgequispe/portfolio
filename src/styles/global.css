@@ -1,6 +1,47 @@
-body {
+/* ============================
+   🔄 Reset básico
+============================ */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ============================
+   🧱 Estilos base del body
+============================ */
+body {
   font-family: 'Inter', sans-serif;
-  background-color: #f5f5f5;
+  background-color: #b11212; /* Fondo rojo intenso */
   color: #333;
+  line-height: 1.6;
+}
+
+/* ============================
+   🪟 Layout principal
+============================ */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ============================
+   📄 Área de contenido
+============================ */
+main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* ============================
+   🦶 Footer
+============================ */
+footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: #eee;
+  color: #555;
 }

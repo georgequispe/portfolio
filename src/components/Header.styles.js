@@ -1,35 +1,38 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+import { NavLink as RouterNavLink } from "react-router-dom";
 
 export const Header = styled.header`
-  position: sticky;
-  top: 0;
-  background: #0a0a0a;
-  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
+  padding: 1.5rem 3rem;
+  background-color: #0a0a0a;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 `;
 
-export const Logo = styled.h1`
-  color: #00d8ff;
-  font-size: 1.6rem;
+export const Logo = styled.div`
+  img {
+    height: 50px;
+    width: auto;
+  }
 `;
 
 export const Nav = styled.nav`
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
 `;
 
-export const NavLink = styled.a`
-  color: #fff;
+export const StyledNavLink = styled(RouterNavLink)`
+  color: #ffffff;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
 
   &:hover {
-    color: #00d8ff;
+    color: #00aaff;
+  }
+
+  &.active {
+    border-bottom: 2px solid #00aaff;
   }
 `;
-
-

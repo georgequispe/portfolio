@@ -1,13 +1,19 @@
-import { Header, Logo,  Nav } from "./Header.styles";
+import { Header, Logo, Nav, StyledNavLink } from "./Header.styles";
 import { NavLink } from "react-router-dom";
+import miLogo from "../assets/miLogo.png";
 const HeaderComponent = () => (
   <Header>
-    <Logo>George.dev</Logo>
+    <Logo>
+      <img src={miLogo} alt="Logo George" loading="lazy" />
+    </Logo>
+
     <Nav>
-      <NavLink to="/sobre-mi">Sobre mí</NavLink>
-      <NavLink to="/proyectos">Proyectos</NavLink>
-      <NavLink to="/contacto">Contacto</NavLink>
-      <NavLink to="/CV_George.pdf" download>CV</NavLink>
+      <StyledNavLink to="/sobre-mi">Sobre mí</StyledNavLink>
+      <StyledNavLink to="/proyectos">Proyectos</StyledNavLink>
+      <StyledNavLink to="/contacto">Contacto</StyledNavLink>
+      <StyledNavLink to="/CV_George.pdf" download>
+        CV
+      </StyledNavLink>
     </Nav>
   </Header>
 );

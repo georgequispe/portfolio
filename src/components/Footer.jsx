@@ -1,14 +1,36 @@
-import { StyledFooter } from "./Footer.styles";
+import { StyledFooter, EmailLink } from "./Footer.styles";
+
 const FooterComponent = () => (
   <StyledFooter>
-    © {new Date().getFullYear()} Diseñado con React y 💙 por George.
-    <br />
-    <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer">
-      GitHub
-    </a> ·{' '}
-    <a href="https://linkedin.com/in/tu-linkedin" target="_blank" rel="noopener noreferrer">
-      LinkedIn
-    </a>
+    <p>
+      © {new Date().getFullYear()} Diseñado con React y 💙 por George Roberto Quispe Román.
+    </p>
+
+    <p>
+      <p>
+          📧 <EmailLink href="mailto:fuerzayfegeorge@hotmail.com.ar" rel="noopener noreferrer">
+               fuerzayfegeorge@hotmail.com.ar
+             </EmailLink>
+</p> · 📍 Buenos Aires, Argentina
+    </p>
+
+    <p>
+      <a href="https://github.com/georgequispe" target="_blank" rel="noopener noreferrer">
+        GitHub
+      </a>{' '}·{' '}
+      <a href="https://linkedin.com/in/george-quispe-080154311/" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>{' '}·{' '}
+      <a href="/CV_George_Quispe.pdf" target="_blank" rel="noopener noreferrer">
+        CV
+      </a>
+    </p>
+
+    <p>
+      <a href="#about">Sobre mí</a> · <a href="#projects">Proyectos</a> · <a href="#contact">Contacto</a>
+    </p>
+
+    <small>Portfolio personal sin fines comerciales.</small>
   </StyledFooter>
 );
 
