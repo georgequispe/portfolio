@@ -11,7 +11,7 @@ const HeaderComponent = () => (
       <StyledNavLink to="/sobre-mi">Sobre mí</StyledNavLink>
       <StyledNavLink to="/proyectos">Proyectos</StyledNavLink>
       <StyledNavLink to="/contacto">Contacto</StyledNavLink>
-      <StyledNavLink to="/CV_George.pdf" download>
+      <StyledNavLink to="/cv" download>
         CV
       </StyledNavLink>
     </Nav>
