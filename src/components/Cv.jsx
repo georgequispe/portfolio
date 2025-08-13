@@ -10,15 +10,18 @@ const CV = () => {
       <CVSection
         title="Experiencia"
         items={[
-          { role: 'Desarrollador Full Stack', company: 'TechCorp', period: '2023 - 2025' },
-          { role: 'Frontend Developer', company: 'VisualStudio', period: '2021 - 2023' },
+          { role: 'Desarrollador Full Stack', company: 'TechCorp', period: '2024 - 2025' },
+          { role: 'Frontend Developer', company: 'VisualStudio', period: '2023 - 2024' },
         ]}
       />
 
       <CVSection
         title="Educación"
         items={[
-          { role: 'Lic. en Informática', company: 'Universidad de Buenos Aires', period: '2017 - 2021' },
+          { role: 'Curso de armado, reparación y mantenimiento de PC', company: 'Instituto Argentino de Computación', period: '2016 - 2017' },
+          { role: 'Curso de programación en Java', company: 'Talento Tech', period: '2024 - 2025' },
+          { role: 'Curso de desarrollo web Frontend', company: 'Codo a Codo', period: '2023 - 2024' },
+          { role: 'Curso de desarrollo web Full Stack', company: 'Talento Tech', period: '2024 - 2025' },
         ]}
       />
 
@@ -26,6 +29,8 @@ const CV = () => {
         title="Tecnologías"
         items={[
           { role: 'React, Vite, Styled-Components, GitHub, Bootstrap' },
+          { role: 'JavaScript, HTML5, CSS3, Node.js, Java' },
+          { role: 'MySQL, SQL_Server, Git, Python' },
         ]}
       />
 

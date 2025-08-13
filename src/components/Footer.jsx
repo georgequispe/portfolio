@@ -21,7 +21,7 @@ const FooterComponent = () => (
       <a href="https://linkedin.com/in/george-quispe-080154311/" target="_blank" rel="noopener noreferrer">
         LinkedIn
       </a>{' '}·{' '}
-      <a href="/CV_George_Quispe.pdf" target="_blank" rel="noopener noreferrer">
+      <a href="/cv" target="_blank" rel="noopener noreferrer">
         CV
       </a>
     </p>
