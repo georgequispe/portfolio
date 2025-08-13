@@ -35,11 +35,14 @@ const CV = () => {
       />
 
       <DownloadButton
-        url="https://drive.google.com/tu-cv.pdf"
+        url={`${import.meta.env.BASE_URL}assets/cv-george-quispe.pdf`}
         label="Descargar CV en PDF"
       />
 
-      <PreviewImage src="/assets/cv-preview.png" alt="Vista previa del CV" />
+      <PreviewImage
+        src={`${import.meta.env.BASE_URL}assets/cv-preview.png`}
+        alt="Vista previa del CV"
+      />
     </Container>
   );
 };
