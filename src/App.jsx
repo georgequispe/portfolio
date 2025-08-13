@@ -8,7 +8,7 @@ import ContactForm from './pages/Contacto';
 import CV from './components/Cv';
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/PORTFOLIO">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/proyectos" element={<Proyectos />} />

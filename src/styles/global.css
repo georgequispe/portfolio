@@ -11,10 +11,12 @@
    🧱 Estilos base del body
 ============================ */
 body {
+  background-color: #f5f7fa;
+  color: #2c3e50;
   font-family: 'Inter', sans-serif;
-  background-color: #b11212; /* Fondo rojo intenso */
-  color: #333;
-  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+
 }
 
 /* ============================
