@@ -8,6 +8,7 @@ const HeaderComponent = () => (
     </Logo>
 
     <Nav>
+      <StyledNavLink to="/">Inicio</StyledNavLink>
       <StyledNavLink to="/sobre-mi">Sobre mí</StyledNavLink>
       <StyledNavLink to="/proyectos">Proyectos</StyledNavLink>
       <StyledNavLink to="/contacto">Contacto</StyledNavLink>

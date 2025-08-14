@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
-export const FormContainer = styled.section`
-  max-width: 600px;
-  margin: 0 auto;
+export const FormContainer = styled.div`
+  background-color: #2a2a2a;
   padding: 2rem;
-  background: #f9f9f9;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  max-width: 600px;
+  margin: 2rem auto;
+  color: #fff;
 `;
 
 export const Title = styled.h2`
