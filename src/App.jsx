@@ -9,8 +9,7 @@ import CV from './components/Cv';
 import Layout from './components/Layout';
 
 function App() {
-  const base = import.meta.env.DEV ? '/' : '/PORTFOLIO';
-
+  const base = import.meta.env.DEV ? '/' : '/portfolio/';
 
   return (
     <BrowserRouter basename={base}>
