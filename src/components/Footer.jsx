@@ -11,8 +11,8 @@ const FooterComponent = () => (
     {/* Contacto y ubicación */}
     <p>
       📧{' '}
-      <EmailLink href="mailto:fuerzayfegeorge@hotmail.com.ar" rel="noopener noreferrer">
-        fuerzayfegeorge@hotmail.com.ar
+      <EmailLink href="georgequispe.dev@gmail.com" rel="noopener noreferrer">
+        georgequispe.dev@gmail.com
       </EmailLink>{' '}
       · 📍 Buenos Aires, Argentina
     </p>
