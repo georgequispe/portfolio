@@ -1,6 +1,6 @@
 
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Proyectos from './components/Proyecto';
 import AboutMe from './components/AboutMe';
@@ -9,10 +9,8 @@ import CV from './components/Cv';
 import Layout from './components/Layout';
 
 function App() {
-  const base = import.meta.env.DEV ? '/' : '/portfolio/';
-
   return (
-    <BrowserRouter basename={base}>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           {/* Esta es la entrada principal */}
@@ -28,7 +26,7 @@ function App() {
           <Route path="*" element={<div>Página no encontrada</div>} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
