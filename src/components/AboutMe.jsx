@@ -24,7 +24,7 @@ const AboutMe = () => {
               <div className="col-md-8 p-4">
                 <h3 className="card-title">George Roberto Quispe Román</h3>
                 <p className="card-text">
-                  Soy desarrollador Full Stack especializado en Java, motivado por el aprendizaje continuo y la mejora constante. Mi camino en IT comenzó como un emprendimiento personal, impulsado por la curiosidad y la perseverancia. Me apasiona crear experiencias visuales claras, escalables y bien estructuradas, integrando buenas prácticas tanto en el código como en la presentación.
+                  Soy un desarrollador Full Stack recién graduado, motivado por el aprendizaje continuo y la mejora constante. Mi foco actual está en fortalecer mis habilidades prácticas en el ecosistema de React, Git y GitHub. Me apasiona construir aplicaciones web y estoy comprometido a aplicar buenas prácticas para crear código claro, escalable y bien estructurado.
                 </p>
               </div>
             </div>
