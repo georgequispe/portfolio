@@ -1,4 +1,4 @@
-import { Container, Title, PreviewImage } from './Cv.styles';
+import { Container, Title } from './Cv.styles';
 import CVSection from './CvSection';
 import DownloadButton from './DownLoadBoton';
 
@@ -40,11 +40,6 @@ const CV = () => {
       <DownloadButton
         url={`${import.meta.env.BASE_URL}assets/cv-george-quispe.pdf`}
         label="Descargar CV en PDF"
-      />
-
-      <PreviewImage
-        src={`${import.meta.env.BASE_URL}assets/cv-preview.png`}
-        alt="Vista previa del CV"
       />
     </Container>
   );
