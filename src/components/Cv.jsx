@@ -26,11 +26,14 @@ const CV = () => {
       />
 
       <CVSection
-        title="Tecnologías"
+        title="Tecnologías y Herramientas"
         items={[
-          { role: 'React, Vite, Styled-Components, GitHub, Bootstrap' },
-          { role: 'JavaScript, HTML5, CSS3, Node.js, Java' },
-          { role: 'MySQL, SQL_Server, Git, Python' },
+          { role: 'Foco actual: React, Vite, Styled-Components' },
+          { role: 'Fundamentos sólidos: HTML5, CSS3, JavaScript (en constante práctica)' },
+          { role: 'Conocimientos y en práctica: Node.js, Java' },
+          { role: 'Herramientas: GitHub, Git, MySQL, SQL Server, Bootstrap' },
+          { role: 'Otros: Python (conocimientos básicos)' },
+
         ]}
       />
 
