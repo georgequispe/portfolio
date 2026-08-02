@@ -17,6 +17,16 @@ export const Title = styled.h2`
   color: #f0f0f0; /* Mejor contraste */
 `;
 
+export const InfoText = styled.p`
+  font-size: 0.95rem;
+  color: #a0a0a0;
+  text-align: center;
+  max-width: 550px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.6;
+  font-style: italic;
+`;
+
 export const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
